@@ -1,0 +1,21 @@
+.circle {
+    max-width: 100px;
+  max-height: 100px;
+ line-height: 100px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: #495464;
+  text-align: center;
+  
+  background: #bbbfca
+  }
+  .row2{
+      margin-top: 5%;
+  }
+.col{
+    margin: auto;
+}
+.container{
+    margin-top: 15%;
+}

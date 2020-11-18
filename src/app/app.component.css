@@ -1,0 +1,124 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 1rem 0 1rem;
+    background-color: #0f3057;
+    color: #e7e7de;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    color: #e7e7de;
+  }
+  .row{
+    margin: 0;
+  }
+.col1{
+  background-color: #495464;
+  height: 100vh;
+  padding: 0px 0px;
+  
+  align-items: center;
+}  
+.col2{
+  background-color: #e8e8e8;
+  height: 100vh;
+  padding: 0px 0px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 0px 0px;
+  margin-top: 10%;
+  list-style-type: none;
+}
+ul li {
+  padding: 0 0;
+}
+ul li a {
+  position: relative;
+  display: block;
+  padding: 4px 0;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+   font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #d2f5e3;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+ul li a:hover {
+  color: #bbbfca;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+ul li a:focus  {
+  color: #bbbfca;
+}
+.profilepic {
+  width: 140px;
+  height: 160px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: auto ;
+  margin-top: 20%;
+  
+}
+
+
+/* Welcome page */
+.welcome{
+  display: flex;
+    justify-content: center;
+  margin-top: 20%;
+  color: #d2f5e3;
+  font-family: "Sacramento",cursive;
+}
+.welcomeh2{
+  display: flex;
+  justify-content: center;
+  color: #d2f5e3;
+  font-family: "Sacramento",cursive;
+}

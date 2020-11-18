@@ -1,0 +1,25 @@
+.col{
+    
+    margin: 10% 10%;
+  
+}
+h5,a,p{ 
+    text-align: center;
+    color: #495464;
+}
+.row{
+    margin: 0px;
+}
+img{
+    height:1.2rem;
+    width:1.2rem;
+    margin-right: 1.2rem;
+
+}
+.email{
+    
+}
+.contactDiv,.emailDiv{
+    margin-top: 2rem;
+   
+}

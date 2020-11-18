@@ -1,0 +1,10 @@
+.aboutMe{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20%;
+    font-size: large;
+    line-height: 2rem;
+    color: #495464;
+}

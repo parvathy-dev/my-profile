@@ -1,0 +1,16 @@
+/* Welcome page */
+.welcome{
+    display: flex;
+      justify-content: center;
+    margin-top: 20%;
+    color: #495464;
+    font-weight: bolder;
+    font-family: "Sacramento",cursive;
+  }
+  .welcomeh2{
+    display: flex;
+    justify-content: center;
+    color: #495464;
+    font-weight: bolder;
+    font-family: "Sacramento",cursive;
+  }
